@@ -50,3 +50,11 @@ This project is designed for university students who want to:
 - Plan the best times to check their inbox
 - Prepare for the busiest times of the semester when email activity peaks
 
+---
+## Findings
+
+
+---
+## Limitations and Future Work
+
+
