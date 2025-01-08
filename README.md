@@ -31,7 +31,7 @@ In highlighting these trends, this work may position students to take their emai
 
 ## Dataset Description
 
-This project uses a dataset of university emails collected from Google Takeout and Thunderbird. The dataset includes the following valuable information:
+The dataset for this project was collected from Google Takeout and Thunderbird, covering the period from Monday, 29 August 2022, to Wednesday, 20 November 2024. It contained valuable fields that facilitated the analysis:
 
 - **Email Timestamps**  
   The exact date and time when emails were sent or received, allowing for the analysis of patterns such as peak hours and days for email traffic.  
@@ -66,15 +66,11 @@ The dataset contains all the necessary fields to uncover patterns in email commu
   - **Subject Lines**
   - **Metadata:** Weekday, Hour, and other time components.
 
----
-
 ### 2. **Data Cleaning**
 - Preprocess the extracted data to ensure accuracy and usability:
   - Parse and format timestamps to extract components such as Day, Month, Year, Hour, Minute, and Second.
   - Clean and separate the sender field into **Name** and **Email Address** using regular expressions.
   - Handle missing or invalid data by assigning placeholder values or excluding incomplete records.
-
----
 
 ### 3. **Data Analysis**
 Use Python libraries like Pandas to perform the following analyses:
@@ -95,8 +91,6 @@ Use Python libraries like Pandas to perform the following analyses:
 - **Email Trends Across Years**  
   Compare email activity across different years to observe changes in patterns over time.
 
----
-
 ### 4. **Data Visualization**
 Create insightful visualizations using Python libraries such as Matplotlib, Seaborn, and WordCloud:
 
@@ -115,8 +109,6 @@ Create insightful visualizations using Python libraries such as Matplotlib, Seab
   - Common keywords in email subject lines to identify dominant themes.
 
 Each visualization will be carefully designed to effectively communicate the trends and insights discovered during analysis.
-
----
 
 ### 5. **Output and Documentation**
 - Save the cleaned and analyzed data into a CSV file for further reference or reuse.
@@ -141,53 +133,37 @@ This plan ensures a structured approach to analyzing university emails and provi
 - Automated systems like **noreply.sucourse@sabanciuniv.edu** and **noreply@sabanciuniv.edu** are the top email senders, accounting for a large portion of the inbox traffic.  
 - Key university departments such as **housing services** (yurtlar@sabanciuniv.edu) and **academic offices** also contribute significantly.
 
----
-
 ### 2. **Peak Email Times**
 - The busiest hour for receiving emails is **10:00 AM**, aligning with the start of academic and administrative operations.  
 - This spike is also influenced by **GazeteSU**, which sends daily messages at exactly **10:30 AM** every morning, contributing significantly to the volume of emails during this hour.  
 - Email activity gradually decreases in the evening and is lowest late at night.
 
-
----
-
 ### 3. **Weekly Trends**
 - **Midweek (Tuesday and Thursday)** are the busiest days for email activity, while **weekends** show significantly lower traffic.
-
----
 
 ### 4. **Monthly and Yearly Trends**
 - Email activity spikes in **May** and **December**, likely corresponding to midterms, finals, and semester-end deadlines.  
 - Comparisons across years show consistent activity patterns in these months, with minor fluctuations.
 
----
-
 ### 5. **Course-Specific Trends**
 - Certain courses, such as **CS204** and **SPS101**, dominate email traffic, reflecting high communication needs for these courses.  
-- Course-related emails often include information about assignments, exams, and project updates.
-
----
+- Higher email volumes for some courses, such as CS204 and MATH203, were influenced by these courses being taken multiple times during the analyzed period.
 
 ### 6. **Keywords in Subject Lines**
 - Common keywords like **"submission," "exam," "grades,"** and **"assignment"** indicate the academic nature of most emails.  
 - The word cloud highlights a focus on deadlines and coursework, emphasizing the importance of effective email management for academic success.
 
----
-
 ### 7. **Heatmap Analysis**
 - The heatmap shows a clear pattern: the busiest hours for emails are between **9:00 AM and 11:00 AM** on weekdays, particularly on **Monday through Thursday**.  
 - The lowest activity occurs on **weekends**, with minimal emails sent late at night or early morning.
-
----
 
 ## Implications of Findings
 - These insights can help students identify **optimal times to check emails** (e.g., around 10 AM on weekdays).  
 - Understanding course-specific trends allows students to better prioritize and organize their inboxes for high-traffic courses.  
 - Recognizing peak periods of email activity (e.g., May and October) helps students prepare for heavy academic and administrative workloads.
 
-
-
 ---
+
 ## Limitations
 - **Bias in Dataset**: The dataset reflects personal email patterns, which may not generalize to other students or departments.
 - **Categorization Challenges**: Extracting keywords and categorizing emails was limited by inconsistent subject lines and missing course information.
