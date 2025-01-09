@@ -24,7 +24,7 @@
 
 University life comes with a flood of responsibilities, and for me, emails have been a constant source of stress. Whether it’s exam grades, assignment deadlines, or important announcements, the sheer volume of emails I receive can be overwhelming. These emails often come at unpredictable times, and staying on top of my inbox has become a challenge.
 
-This project emerged from my personal need to bring order to this chaos. I wanted to understand my email patterns—when they arrive, who sends them, and what they’re about—so I could manage my inbox more effectively. By doing so, I hoped to reduce the stress of constantly checking for important updates and instead approach my inbox strategically.
+This project emerged from my personal need to bring order to this chaos. I wanted to understand my email patterns when they arrive, who sends them, and what they’re about so I could manage my inbox more effectively. By doing so, I hoped to reduce the stress of constantly checking for important updates and instead approach my inbox strategically.
 
 ---
 
