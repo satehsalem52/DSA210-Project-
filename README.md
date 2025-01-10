@@ -52,7 +52,7 @@ This project focuses on analyzing my university emails to extract actionable ins
    - Understand which times of day are busiest for email traffic.
 
 6. **Categorizing Emails by Topic and Sender Type**:
-   - Group emails into categories (e.g., academic, administrative, extracurricular) to simplify inbox management.
+   - Group emails into categories (academic, administrative, extracurricular) to simplify inbox management.
 
 ---
 
@@ -69,7 +69,7 @@ Here are the key fields I worked with:
   Includes sender names and email addresses, helping identify frequent senders.
 
 - **Subject Lines**:
-  Provides context for categorizing emails (e.g., assignments, deadlines, announcements).
+  Provides context for categorizing emails (assignments, deadlines, announcements).
 
 - **Day, Month, and Year Metadata**:
   Enables trend analysis across specific days, months, and years.
@@ -123,8 +123,8 @@ Here are the key fields I worked with:
 
 ## **Predictions**
 
-1. Most emails will arrive during **morning hours (e.g., 9:00 AM to 11:00 AM)**.
-2. Frequent senders will include **noreply systems** (e.g., SUCourse) and key university departments.
+1. Most emails will arrive during **morning hours (9:00 AM to 11:00 AM)**.
+2. Frequent senders will include **noreply systems** (SUCourse) and key university departments.
 3. Email traffic will peak on **Tuesdays and Thursdays** and drop significantly on weekends.
 4. Common subject line keywords will include terms like **"submission," "exam," "grades,"** and **"assignment."**
 5. Courses like **CS204** and **MATH203** will dominate email volume.
