@@ -181,6 +181,12 @@ Here are the key fields I worked with:
 
 ---
 
+## **Report Availability**
+
+For a detailed analysis, including graphs and comprehensive insights, please refer to the report titled **University Email Analysis Project Report** in this repository. The report includes an in-depth explanation of the methods, findings, and implications.
+
+---
+
 ## **Limitations**
 
 - **Personal Dataset**: The findings reflect my personal email patterns and may not generalize to others.
